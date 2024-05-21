@@ -6,7 +6,7 @@
 # 1 Кортеж
 
 immutable_var = 1,2,3,4,'кортеж',True,[8,9,10]
-print(immutable_var)
+print('Immutable tuple: ', immutable_var)
 
 immutable_var[6][1] = 'яблоко'
 print(immutable_var)          # в данном случае заменить можно только элементы внутри списка который находится в кортеже
